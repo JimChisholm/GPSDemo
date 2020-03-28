@@ -1,0 +1,19 @@
+/run/initialize
+/gps/particle geantino
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/halfx 2 cm
+/gps/pos/halfy 3 cm
+/gps/pos/rot1 0 1 0
+/gps/pos/rot2 0 0 1
+/gps/source/intensity 5
+/gps/pos/centre 0 0 -8
+/gps/ang/type user
+/gps/ang/surfnorm true
+
+/gps/ene/type Gauss
+/gps/ene/mono 600 MeV
+/gps/ene/sigma 50 MeV
+/run/printProgress 100
+/run/beamOn 1000
+

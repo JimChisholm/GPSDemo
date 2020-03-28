@@ -1,0 +1,20 @@
+/run/initialize
+/gps/source 5
+/gps/particle e-
+/gps/pos/type Beam
+/gps/pos/shape Rectangle
+/gps/pos/centre 0 0 0 cm
+/gps/pos/halfx 1.5 cm
+/gps/pos/halfy 3 cm
+/gps/pos/rot1 0 1 0
+/gps/pos/rot2 0 0 1
+#/gps/pos/sigma_x 0.1 cm
+#/gps/pos/sigma_y 0.2 cm
+/gps/ang/type beam1d
+#/gps/ang/sigma_x 0 deg
+#/gps/ang/sigma_y 0 deg
+/gps/ene/type Gauss
+/gps/ene/mono 600 MeV
+/gps/ene/sigma 50 MeV
+/run/printProgress 100
+/run/beamOn 1000
